@@ -2,17 +2,21 @@ body{
     display:flex;
     flex-direction: column;
     font: 15px/1 IBM Plex Mono, Helvetica, monospace;
+    background-color: #5A7A63;
 }
 h1{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 54px;
+    color: #FFFFFF;
 }
 h2{
     font-variant: all-small-caps;
     font-size: 24px;
+    color: #FFFFFF;
 }
 h3{
     font-size: 18px;
+    color: #FFFFFF
 }
 
 .container{
