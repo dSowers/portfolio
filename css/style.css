@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font: 15px/1 IBM Plex Mono, Helvetica, monospace;
+}
+h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 54px;
+}
+h2{
+    font-variant: all-small-caps;
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container #blurb{
+    text-align: center;
+    width:100%;
+}
+
+@media screen and (max-width: 600px) {
+    #menus{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+
+header{
+    display: flex;
+    height:200px;
+}
+
+footer{
+    font-size: 10px;
+    margin-right:10px;
+    padding:10px;
+    text-align: right;
+}
